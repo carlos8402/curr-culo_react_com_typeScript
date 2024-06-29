@@ -1,0 +1,56 @@
+                          /*---------CLASS PROFILE-----------------*/
+
+.profile {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+border: 1px solid aqua;
+margin-inline: 2rem;
+padding-block: 2rem;
+
+}
+.profile-img {
+    border-radius: 15px;
+    width: 180px;
+    height: 180px;
+    
+}
+.profile-title {
+    color:rgb(24, 180, 102);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    padding-block: 1rem;
+    text-align: center;
+
+}
+.profile-text {
+    width: 600px;
+    color:gray;
+    text-align: center;
+    padding-inline: 1rem;
+    font-size: 20px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(63, 94, 28);
+}
+.profile-text:hover {
+    color: rgb(243, 224, 224);
+    
+}
+
+  
+@media (min-width:800px) {
+
+    .profile {
+        flex-wrap: nowrap;
+        margin-inline: 14rem;
+        margin-bottom: 1rem;
+        padding-inline: 2rem;
+        
+    }
+
+
+}
+
+       

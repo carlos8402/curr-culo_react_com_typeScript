@@ -1,0 +1,47 @@
+                               /*---------CLASS REFERENCES -----------------*/
+
+#references {
+    border: 1px solid aqua;
+    border-radius: 15px;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+   
+}                          
+.references-title {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    font-size: 1.3rem;
+    text-align: center;
+
+  
+
+}
+.references-name {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(141, 187, 89);
+    font-size: 22px;
+    text-align: center;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+  
+}
+.references-contato {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(117, 177, 48);
+    font-size: 18px;
+  
+    
+
+}
+.references-link {
+    text-decoration: none;
+}
+.references-link:hover {
+    color: rgb(243, 224, 224);
+}

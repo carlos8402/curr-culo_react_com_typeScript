@@ -1,0 +1,36 @@
+.first-name {
+    display: block;
+    
+}
+.data-name {
+    font-family: 'Indie Flower', cursive;
+    color:rgb(24, 180, 102);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    font-size: 3rem;
+}
+.data-about-name {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(63, 94, 28);
+    font-size: 2rem;
+}
+.data-function {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    font-size: 1.5rem;
+}
+
+  
+@media (min-width:800px) {
+
+
+    .introducion-one {
+      flex-wrap: nowrap;
+      
+    }
+
+}
