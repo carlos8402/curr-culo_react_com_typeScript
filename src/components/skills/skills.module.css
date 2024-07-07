@@ -1,7 +1,5 @@
-                           /*---------CLASS SKILLS-----------------*/
-
-
-#skills {
+                        
+.skills {
     display: flex;
     flex-direction: column;
     border: 1px solid aqua;
@@ -9,9 +7,9 @@
     padding-block: 2rem;
     padding-inline: 5rem;
     margin-inline: 2rem;
-   
 }
-.skills-title {
+
+.skills h2{
     font-family: 'Indie Flower', cursive;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
@@ -20,7 +18,8 @@
     text-align: center;
     padding-block: 0.7rem;
 }
-.skills-items {
+
+.skills ul{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,20 +27,18 @@
     gap: 0.7rem;
     list-style: none; 
 }
-.skills-item {
+
+.skills li {
     font-family: 'Indie Flower', cursive;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(63, 94, 28);
     font-size: 1.5rem;
-
 }
 
-  
-@media (min-width:800px) {
+@media (width>800px) {
  
-
-    .skills-items {
+    .skills ul {
         display: flex;
         flex-direction: row;
         
@@ -49,6 +46,4 @@
     .skills {
         padding-block: 1rem;
     }
-   
-
 }

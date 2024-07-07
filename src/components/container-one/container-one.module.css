@@ -8,12 +8,10 @@
     padding-block: 2rem;
 }
 
-  
-@media (min-width:800px) {
+@media (width>800px) {
 
-    .container {
-        flex-wrap: nowrap;
-        padding-block: 4rem;
-    }
-
+.container {
+    flex-wrap: nowrap;
+    padding-block: 4rem;
+  }
 }

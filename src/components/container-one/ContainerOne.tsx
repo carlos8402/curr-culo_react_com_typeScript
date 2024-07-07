@@ -1,21 +1,17 @@
 import { Certifications } from "../certifications/Certifications";
 import { Formations } from "../formations/Formations";
-import './container-one.css'
+import s from'./container-one.module.css'
 
 export function ContainerOne(){
 
     return(
 
-        <>
-            
-            <div className="container">
+            <div className={s.container}>
 
-                   
-                    <Formations />
-                    <Certifications />
-
-                   
+                <Formations />
+                <Certifications />
+  
             </div>
-        </>  
+         
     )
 }

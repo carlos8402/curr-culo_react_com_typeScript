@@ -1,8 +1,5 @@
- 
-                              /*---------CLASS FORMATION-----------------*/
-
-
-#formation {
+                   
+.formation {
     border: 1px solid aqua;
     border-radius: 15px;
     padding-block: 2rem;
@@ -10,17 +7,7 @@
     margin-inline: 2rem;
 }
 
-.formation-title {
-    font-family: 'Indie Flower', cursive;
-    color:gray;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:rgb(57, 201, 96);
-    font-size: 1.5rem;
-    text-align: center;
-
-}
-
-.formation-institution {
+.formation h2 {
     font-family: 'Indie Flower', cursive;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
@@ -28,20 +15,30 @@
     font-size: 1.5rem;
     text-align: center;
 }
-.table-title {
+
+.formation p {
     font-family: 'Indie Flower', cursive;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(57, 201, 96);
     font-size: 1.5rem;
-    
+    text-align: center;
 }
-.table-item {
+
+.formation table {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    font-size: 1.5rem;
+}
+
+.formation td {
     font-family: 'Indie Flower', cursive;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(63, 94, 28);
     font-size: 1.5rem;
-    text-align: center;
+    text-align:left;
+    padding-left: 1rem;
 }
-       

@@ -1,7 +1,5 @@
-                   /*---------CLASS CERTIFICATIONS -----------------*/
 
-
-#certifications {
+.certifications{
     justify-content: center;
     align-items: center;
     border: 1px solid aqua;
@@ -10,7 +8,8 @@
     padding-inline: 2rem;
     margin-inline: 2rem;
 }
-.certifications-title {
+
+.certifications h2 {
     font-family: 'Indie Flower', cursive;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
@@ -19,7 +18,8 @@
     text-align: center;
     padding-bottom: 1rem;
 }
-.certifications-item {
+
+.certifications li{
     list-style: none;
     font-family: 'Indie Flower', cursive;
     color:gray;
@@ -27,5 +27,4 @@
     -webkit-text-stroke-color:rgb(63, 94, 28);
     font-size: 1.5rem;
     text-align: center;
-
 }

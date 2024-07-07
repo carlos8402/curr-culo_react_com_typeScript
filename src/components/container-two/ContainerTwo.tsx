@@ -1,19 +1,16 @@
 import { References } from "../references/References";
 import { Skills } from "../skills/Skills";
-import './container-two.css'
+import s from'./container-two.module.css'
 
 export function ContainerTwo(){
     return(
-        <>
-            <div className="container2">
+        
+            <div className={s.container2}>
 
                 <Skills />
                 <References />
 
             </div>
         
-        
-        
-        </>
     )
 }

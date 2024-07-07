@@ -1,20 +1,18 @@
 import { PersonalData } from "../personal-data/PersonalData"
 import { Profile } from "../profile/Profile"
-
-import './header.css'
+import s from'./header.module.css'
 
 export function Header(){
 
     return(
 
-        <>
-            <header className="introduction">
+            <header className={s.introduction}>
 
                 <PersonalData />
 
                 <Profile />
 
             </header>
-        </>
+        
     )
 }

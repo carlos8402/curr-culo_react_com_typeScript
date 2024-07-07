@@ -1,37 +1,32 @@
-                          /*---------CLASS MENU-SOCIAL NETWORKS-----------------*/
-
-.social-list {
+                    
+.socialList {
     border-radius: 15px;
     border: 1px solid aqua;
     padding-block: 2rem;
     padding-inline: 2rem;   
-    
-
 }
 
-.items {
+.socialList ul {
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
- 
-  
-   
 }
-.item {
+
+.socialList li {
     font-size: 1.3rem;
-    color:rgb(57, 201, 96); 
-
-
+    color:rgb(57, 201, 96);
 }
-.link-social {
+
+.socialList a {
     text-decoration: none;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(63, 94, 28);  
     margin-left: 1rem;
 }
-.link-social:hover {
+
+.socialList a:hover {
     color: rgb(243, 224, 224);
 }
