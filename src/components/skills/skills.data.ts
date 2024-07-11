@@ -5,7 +5,7 @@ export type Skill = {
 }
 
 
-export  const skillsList: Skill[] = [
+export  const skillsList: Skill [] = [
 
     {
         id: 1,

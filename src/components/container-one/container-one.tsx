@@ -1,5 +1,8 @@
-import { Certifications } from "../certifications/Certifications";
-import { Formations } from "../formations/Formations";
+
+
+
+import { Certifications } from '../certifications'
+import { Formations } from '../formations'
 import s from'./container-one.module.css'
 
 export function ContainerOne(){

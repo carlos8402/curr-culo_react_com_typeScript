@@ -1,10 +1,10 @@
-export type ListCertifications = {
+export type Certification = {
     
     id: number;
     text: string;
 };
 
-    export  const certification: ListCertifications[] = [
+    export  const certifications: Certification [] = [
 
     {
         id: 1,

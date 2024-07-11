@@ -1,5 +1,6 @@
-import { PersonalData } from "../personal-data/PersonalData"
-import { Profile } from "../profile/Profile"
+
+import { PersonalData } from '../personal-data'
+import { Profile } from '../profile'
 import s from'./header.module.css'
 
 export function Header(){

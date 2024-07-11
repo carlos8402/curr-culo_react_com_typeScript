@@ -1,6 +1,6 @@
 
 import s from'./skills.module.css'
-import { skillsList } from '../../ListSkills'
+import { skillsList } from './skills.data'
 
 
 

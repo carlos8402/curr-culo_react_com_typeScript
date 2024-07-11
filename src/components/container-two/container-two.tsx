@@ -1,5 +1,7 @@
-import { References } from "../references/References";
-import { Skills } from "../skills/Skills";
+
+
+import { References } from '../references'
+import { Skills } from '../skills'
 import s from'./container-two.module.css'
 
 export function ContainerTwo(){

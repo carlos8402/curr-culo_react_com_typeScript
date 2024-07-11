@@ -1,6 +1,6 @@
 
 import s from './certifications.module.css'
-import { certification } from '../../ListCertifications'
+import { certifications } from './certifications.data'
 
 
 
@@ -12,8 +12,8 @@ export function Certifications(){
 
                 <h2>Certificações</h2>
                 <ul>
-                {certification.map((items) => (
-                    <li  key={items.id}>{items.text}</li>
+                {certifications.map((item) => (
+                    <li  key={item.id}>{item.text}</li>
 
                 ))}
              

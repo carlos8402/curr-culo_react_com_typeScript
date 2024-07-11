@@ -1,4 +1,5 @@
-import { SocialList } from "../social-list/SocialList"
+
+import { SocialList } from '../social-list'
 import s from'./personal-data.module.css'
 
 

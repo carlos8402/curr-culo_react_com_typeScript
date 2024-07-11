@@ -1,14 +1,18 @@
 
 import './App.css'
-import { Containers } from './components/containers/Containers'
-import { Header } from './components/header/Header'
+import { Containers } from './components/containers'
+import { Header } from './components/header'
+
+
+
+
 
 function App() {
   
 
   return (
     <>
-        <Header/>
+        <Header />
         <Containers />
       
     </>

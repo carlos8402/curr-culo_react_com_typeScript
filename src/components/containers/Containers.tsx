@@ -1,11 +1,14 @@
-import { ContainerOne } from "../container-one/ContainerOne";
-import { ContainerTwo } from "../container-two/ContainerTwo";
+import { ContainerOne } from "../container-one";
+import { ContainerTwo } from "../container-two";
+
+
 
 export function Containers(){
     return(
         <main>
             <ContainerOne />
             <ContainerTwo />
+
         </main>
     )
 }

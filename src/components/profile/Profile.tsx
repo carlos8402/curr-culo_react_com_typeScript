@@ -6,7 +6,7 @@ export function Profile (){
 
         <div className={s.profile}>
                     
-            <img src="./img/foto_perfil.jpg"  width="150px" height="150px"  alt="" />
+            <img src="./img/foto_perfil.jpg"  width={150} height={150} alt="Foto de perfil do estudante de Ciências da Computação, homem pardo,por volta de 35 anos,sorri com camisa social branca." />
 
             <div>
                 <h2>Perfil Pessoal</h2>
