@@ -1,5 +1,5 @@
 import s from "./certifications.module.css";
-import { certifications } from "./certifications.data";
+import { certifications } from "./certifications-data";
 
 export function Certifications() {
   return (
