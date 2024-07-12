@@ -1,43 +1,42 @@
-
 .references {
-    border: 1px solid aqua;
-    border-radius: 15px;
-    padding-block: 1rem;
-    padding-inline: 1rem;
-}  
-
-.references h2 {
-    font-family: 'Indie Flower', cursive;
-    color:gray;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:rgb(57, 201, 96);
-    font-size: 1.3rem;
-    text-align: center;
+  border: 1px solid aqua;
+  border-radius: 15px;
+  padding-block: 1rem;
+  padding-inline: 1rem;
 }
 
-.references h3{
-    font-family: 'Indie Flower', cursive;
-    color:gray;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:rgb(141, 187, 89);
-    font-size: 22px;
-    text-align: center;
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
+.references h2 {
+  font-family: "Indie Flower", cursive;
+  color: gray;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(57, 201, 96);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.references h3 {
+  font-family: "Indie Flower", cursive;
+  color: gray;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(141, 187, 89);
+  font-size: 22px;
+  text-align: center;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
 }
 
 .references p {
-    font-family: 'Indie Flower', cursive;
-    color:gray;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:rgb(117, 177, 48);
-    font-size: 18px;
+  font-family: "Indie Flower", cursive;
+  color: gray;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(117, 177, 48);
+  font-size: 18px;
 }
 
 .references a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .references a:hover {
-    color: rgb(243, 224, 224);
+  color: rgb(243, 224, 224);
 }

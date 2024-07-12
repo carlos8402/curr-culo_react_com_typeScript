@@ -1,16 +1,15 @@
 .container {
-    background-image: url(./img/fundo4.svg);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    padding-block: 2rem;
+  background-image: url(/public/img/fundo4.svg);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-block: 2rem;
 }
 
 @media (width>800px) {
-
-.container {
+  .container {
     flex-wrap: nowrap;
     padding-block: 4rem;
   }

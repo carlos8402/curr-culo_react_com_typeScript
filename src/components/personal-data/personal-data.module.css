@@ -1,56 +1,53 @@
 .introduction_one {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 2rem;
-    margin-inline: 2rem;
-}  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-inline: 2rem;
+}
 
 .introduction_one div {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid aqua;
-    border-radius: 15px;
-    padding-block: 2rem;
-    padding-inline: 2rem; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid aqua;
+  border-radius: 15px;
+  padding-block: 2rem;
+  padding-inline: 2rem;
 }
 
 .introduction_one span {
-    display: block;
+  display: block;
 }
 .introduction_one h1 {
-    font-family: 'Indie Flower', cursive;
-    color:rgb(24, 180, 102);
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:rgb(57, 201, 96);
-    font-size: 3rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-bottom: 1rem;
-    justify-content: center;
-    text-align: center;
+  font-family: "Indie Flower", cursive;
+  color: rgb(24, 180, 102);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(57, 201, 96);
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 1rem;
+  justify-content: center;
+  text-align: center;
 }
 
 .introduction_one p {
-    font-family: 'Indie Flower', cursive;
-    color:gray;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:rgb(57, 201, 96);
-    font-size: 1.5rem;
-    text-align: center;
+  font-family: "Indie Flower", cursive;
+  color: gray;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(57, 201, 96);
+  font-size: 1.5rem;
+  text-align: center;
 }
 
-  
 @media (width>800px) {
-
-    .introduction_one {
-      flex-wrap: nowrap;
-      
-    }
+  .introduction_one {
+    flex-wrap: nowrap;
+  }
 }

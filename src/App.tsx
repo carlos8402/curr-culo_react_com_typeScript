@@ -1,22 +1,14 @@
-
-import './App.css'
-import { Containers } from './components/containers'
-import { Header } from './components/header'
-
-
-
-
+import "./App.css";
+import { Containers } from "./components/containers";
+import { Header } from "./components/header";
 
 function App() {
-  
-
   return (
     <>
-        <Header />
-        <Containers />
-      
+      <Header />
+      <Containers />
     </>
-  )
+  );
 }
 
-export default App 
+export default App;

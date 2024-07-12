@@ -1,6 +1,6 @@
 .introduction {
-    background-image: url(./img/fundo4.svg);
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-   }
+  background-image: url(/public/img/fundo4.svg);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

@@ -1,22 +1,18 @@
-
 .container2 {
-    background-image: url(/public/img/fundo4.svg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-    padding-block: 2rem;
-    padding-inline: 2rem;
+  background-image: url(/public/img/fundo4.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-block: 2rem;
+  padding-inline: 2rem;
 }
 
-  
 @media (width>800px) {
-
-    .container2 {
-     padding-top: 3rem;
-     padding-bottom: 6rem;
-     flex-wrap: nowrap  ;
-     
-    }
+  .container2 {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    flex-wrap: nowrap;
+  }
 }

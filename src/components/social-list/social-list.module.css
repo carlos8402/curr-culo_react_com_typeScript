@@ -1,32 +1,31 @@
-                    
 .socialList {
-    border-radius: 15px;
-    border: 1px solid aqua;
-    padding-block: 2rem;
-    padding-inline: 2rem;   
+  border-radius: 15px;
+  border: 1px solid aqua;
+  padding-block: 2rem;
+  padding-inline: 2rem;
 }
 
 .socialList ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .socialList li {
-    font-size: 1.3rem;
-    color:rgb(57, 201, 96);
+  font-size: 1.3rem;
+  color: rgb(57, 201, 96);
 }
 
 .socialList a {
-    text-decoration: none;
-    color:gray;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:rgb(63, 94, 28);  
-    margin-left: 1rem;
+  text-decoration: none;
+  color: gray;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(63, 94, 28);
+  margin-left: 1rem;
 }
 
 .socialList a:hover {
-    color: rgb(243, 224, 224);
+  color: rgb(243, 224, 224);
 }

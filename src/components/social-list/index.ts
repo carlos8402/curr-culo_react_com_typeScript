@@ -1,1 +1,1 @@
-export * from'./social-list'
+export * from "./social-list";

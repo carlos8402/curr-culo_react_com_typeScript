@@ -1,1 +1,1 @@
-export * from'./formations'
+export * from "./formations";
